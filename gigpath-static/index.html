@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GigPath - Career Mobility for Gig Workers</title>
+    <meta
+      name="description"
+      content="GigPath is a career navigation platform for gig workers in India. Gig work shouldn't trap you. Build skills that unlock better roles."
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav class="nav" aria-label="Primary">
+      <div class="container nav__inner">
+        <a class="brand" href="./index.html#home" aria-label="GigPath home">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span class="brand__text">GigPath</span>
+        </a>
+
+        <button class="hamburger" type="button" aria-label="Open menu" aria-expanded="false">
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+        </button>
+
+        <div class="nav__links" role="navigation" aria-label="Site">
+          <a class="nav__link" href="./index.html#home">Home</a>
+          <a class="nav__link" href="./how-it-works.html">How It Works</a>
+          <a class="nav__link" href="./career-paths.html">Career Paths</a>
+          <a class="nav__link" href="./roadmap.html">Roadmap</a>
+          <a class="nav__cta btn btn--primary" href="./index.html#get-started">
+            Get Started <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobile-menu" aria-label="Mobile menu">
+        <div class="container mobile-menu__inner">
+          <a class="mobile-menu__link" href="./index.html#home">Home</a>
+          <a class="mobile-menu__link" href="./how-it-works.html">How It Works</a>
+          <a class="mobile-menu__link" href="./career-paths.html">Career Paths</a>
+          <a class="mobile-menu__link" href="./roadmap.html">Roadmap</a>
+          <a class="mobile-menu__link btn btn--primary" href="./index.html#get-started">
+            Get Started <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <header id="home" class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__inner animate-on-scroll">
+        <p class="pill">
+          Career navigation for gig workers in India
+        </p>
+        <h1 class="hero__title">Gig work shouldn't trap you.</h1>
+        <p class="hero__subtitle">
+          Build skills that unlock better roles —
+          <br class="br-md" />
+          not longer working hours.
+        </p>
+        <p class="hero__desc">
+          A career mobility platform helping gig workers move from survival gigs to higher-value roles.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary btn--lg" href="./roadmap.html">
+            See Your Career Path <span aria-hidden="true">→</span>
+          </a>
+          <a class="btn btn--outline btn--lg" href="./how-it-works.html">How It Works</a>
+        </div>
+
+        <div class="trustline" aria-label="Trust line">
+          <div class="avatars" aria-hidden="true">
+            <span class="avatar"></span>
+            <span class="avatar"></span>
+            <span class="avatar"></span>
+            <span class="avatar"></span>
+            <span class="avatar"></span>
+          </div>
+          <p class="trustline__text">
+            Trusted by gig workers, supervisors, and hiring partners
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- PROBLEM -->
+    <section class="section" id="problem">
+      <div class="container grid-2">
+        <div class="animate-on-scroll">
+          <h2 class="h2">Effort isn't the problem. Direction is.</h2>
+          <p class="lead">
+            Many gig workers work full-time hours but remain in the same role for years. Income increases only by working longer hours, not by gaining skills.
+          </p>
+        </div>
+
+        <div class="stats animate-on-scroll" aria-label="Problem stats">
+          <div class="stat-card">
+            <div class="stat-card__icon" aria-hidden="true">⏰</div>
+            <div class="stat-card__value">12 Hours/Day</div>
+            <div class="stat-card__label">Long shifts, little growth</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card__icon" aria-hidden="true">₹</div>
+            <div class="stat-card__value">₹15,000/Month</div>
+            <div class="stat-card__label">Income tied to hours</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card__icon" aria-hidden="true">📍</div>
+            <div class="stat-card__value">Same Role 3+ Years</div>
+            <div class="stat-card__label">No clear next step</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUICK LINKS (now that features are separate pages) -->
+    <section class="section section--soft">
+      <div class="container">
+        <div class="section__head animate-on-scroll">
+          <h2 class="h2 center">Explore GigPath Features</h2>
+          <p class="sub center">Open pages for each feature — simple and clear.</p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="card animate-on-scroll">
+            <div class="card__emoji" aria-hidden="true">🗺️</div>
+            <h3 class="h3">How It Works</h3>
+            <p class="muted">4-step journey designed for busy days.</p>
+            <div class="card__footer">
+              <span class="tag tag--success">15–30 min practice</span>
+              <a class="link" href="./how-it-works.html">Open <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="card animate-on-scroll">
+            <div class="card__emoji" aria-hidden="true">🧭</div>
+            <h3 class="h3">Career Paths</h3>
+            <p class="muted">Choose a path. See skills → roles → income ranges.</p>
+            <div class="card__footer">
+              <span class="tag tag--success">Skill-first</span>
+              <a class="link" href="./career-paths.html">Open <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="card animate-on-scroll">
+            <div class="card__emoji" aria-hidden="true">📍</div>
+            <h3 class="h3">Roadmap</h3>
+            <p class="muted">Timeline + connecting table (skills, roles, status).</p>
+            <div class="card__footer">
+              <span class="tag tag--success">Progress view</span>
+              <a class="link" href="./roadmap.html">Open <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="card animate-on-scroll">
+            <div class="card__emoji" aria-hidden="true">👥</div>
+            <h3 class="h3">Community</h3>
+            <p class="muted">Peer circles, mentors, opportunity posts, FAQ.</p>
+            <div class="card__footer">
+              <span class="tag tag--success">Support system</span>
+              <a class="link" href="./community.html">Open <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="cta" id="get-started">
+      <div class="container cta__inner animate-on-scroll">
+        <h2 class="cta__title">Ready to See Your Career Path?</h2>
+        <p class="cta__sub">
+          Join thousands of gig workers building skills for better opportunities.
+        </p>
+        <a class="btn btn--white btn--lg" href="#paths">
+          See Your Career Path <span aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" aria-label="Footer">
+      <div class="container footer__grid">
+        <div>
+          <h3 class="footer__title">ABOUT</h3>
+          <a class="footer__link" href="#home">About Us</a>
+          <a class="footer__link" href="#how">How It Works</a>
+          <a class="footer__link" href="#home">Blog</a>
+        </div>
+
+        <div>
+          <h3 class="footer__title">CAREER PATHS</h3>
+          <a class="footer__link" href="#paths">Delivery</a>
+          <a class="footer__link" href="#paths">Warehouse</a>
+          <a class="footer__link" href="#paths">Support</a>
+          <a class="footer__link" href="#paths">Data &amp; Admin</a>
+        </div>
+
+        <div>
+          <h3 class="footer__title">SUPPORT</h3>
+          <a class="footer__link" href="#faq">FAQ</a>
+          <a class="footer__link" href="#get-started">Contact</a>
+          <a class="footer__link" href="#get-started">Privacy</a>
+          <a class="footer__link" href="#get-started">Terms</a>
+        </div>
+
+        <div>
+          <h3 class="footer__title">CONNECT</h3>
+          <a class="footer__link" href="#get-started">LinkedIn</a>
+          <a class="footer__link" href="#get-started">Twitter</a>
+          <a class="footer__link" href="#get-started">Instagram</a>
+        </div>
+      </div>
+
+      <div class="container footer__bottom">
+        © 2026 GigPath. Made with <span aria-hidden="true">❤️</span> for India's gig workers.
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="./script.js"></script>
+  </body>
+</html>

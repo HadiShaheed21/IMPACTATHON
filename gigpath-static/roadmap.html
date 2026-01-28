@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GigPath - Career Roadmap</title>
+    <meta name="description" content="Your Career Roadmap: timeline + connecting table" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="nav" aria-label="Primary">
+      <div class="container nav__inner">
+        <a class="brand" href="./index.html#home" aria-label="GigPath home">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span class="brand__text">GigPath</span>
+        </a>
+
+        <button class="hamburger" type="button" aria-label="Open menu" aria-expanded="false">
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+        </button>
+
+        <div class="nav__links" role="navigation" aria-label="Site">
+          <a class="nav__link" href="./index.html#home">Home</a>
+          <a class="nav__link" href="./how-it-works.html">How It Works</a>
+          <a class="nav__link" href="./career-paths.html">Career Paths</a>
+          <a class="nav__link" href="./roadmap.html">Roadmap</a>
+          <a class="nav__cta btn btn--primary" href="./index.html#get-started">
+            Get Started <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobile-menu" aria-label="Mobile menu">
+        <div class="container mobile-menu__inner">
+          <a class="mobile-menu__link" href="./index.html#home">Home</a>
+          <a class="mobile-menu__link" href="./how-it-works.html">How It Works</a>
+          <a class="mobile-menu__link" href="./career-paths.html">Career Paths</a>
+          <a class="mobile-menu__link" href="./roadmap.html">Roadmap</a>
+          <a class="mobile-menu__link btn btn--primary" href="./index.html#get-started">
+            Get Started <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <header class="pagehead">
+      <div class="pagehead__bg" aria-hidden="true"></div>
+      <div class="container pagehead__inner animate-on-scroll">
+        <div class="kicker">Roadmap</div>
+        <h1 class="pagehead__title">Your Career Roadmap</h1>
+        <p class="pagehead__sub">
+          Track where you are and where you're going. Below: a visual timeline + a connecting table.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <!-- Timeline -->
+      <section class="section section--soft" id="timeline">
+        <div class="container">
+          <div class="timeline animate-on-scroll" role="group" aria-label="Career timeline">
+            <div class="timeline__track" aria-hidden="true"></div>
+
+            <div class="timeline__stages">
+              <div class="stage stage--done">
+                <div class="stage__top">
+                  <span class="stage__badge">✓ COMPLETED</span>
+                </div>
+                <div class="stage__dot" aria-hidden="true"></div>
+                <div class="stage__role">Delivery Rider</div>
+                <div class="stage__money">₹15,000</div>
+                <div class="stage__meta">✓ Done</div>
+              </div>
+
+              <div class="stage stage--active">
+                <div class="stage__top">
+                  <span class="stage__badge">⚡ IN PROGRESS</span>
+                </div>
+                <div class="stage__dot" aria-hidden="true"></div>
+                <div class="stage__role">Senior Rider</div>
+                <div class="stage__money">₹22,000</div>
+                <div class="stage__meta">75% complete</div>
+                <div class="progress" aria-label="Progress 75%">
+                  <div class="progress__bar" style="width: 75%"></div>
+                </div>
+              </div>
+
+              <div class="stage stage--locked">
+                <div class="stage__top">
+                  <span class="stage__badge">🔒 NEXT</span>
+                </div>
+                <div class="stage__dot" aria-hidden="true"></div>
+                <div class="stage__role">Fleet Lead</div>
+                <div class="stage__money">₹30,000</div>
+                <div class="stage__meta">Locked</div>
+              </div>
+
+              <div class="stage stage--locked">
+                <div class="stage__top">
+                  <span class="stage__badge">🎯 FUTURE</span>
+                </div>
+                <div class="stage__dot" aria-hidden="true"></div>
+                <div class="stage__role">Supervisor</div>
+                <div class="stage__money">₹40,000</div>
+                <div class="stage__meta">Locked</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Connecting table -->
+      <section class="section" id="table">
+        <div class="container">
+          <div class="section__head animate-on-scroll">
+            <h2 class="h2 center">Roadmap Connecting Table</h2>
+            <p class="sub center">
+              Role → skills → status. (Scroll horizontally on mobile)
+            </p>
+          </div>
+
+          <div class="tablewrap animate-on-scroll">
+            <div class="tablewrap__scroll" role="region" aria-label="Roadmap table">
+              <table class="roadtable">
+                <thead>
+                  <tr>
+                    <th>Stage</th>
+                    <th class="col-done">✓ Completed</th>
+                    <th class="col-active">⚡ In Progress</th>
+                    <th class="col-locked">🔒 Next</th>
+                    <th class="col-locked">🎯 Future</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Role</td>
+                    <td><strong>Delivery Rider</strong></td>
+                    <td><strong>Senior Rider</strong></td>
+                    <td><strong>Fleet Lead</strong></td>
+                    <td><strong>Supervisor</strong></td>
+                  </tr>
+                  <tr>
+                    <td>Income (range)</td>
+                    <td>₹14,000–₹16,000</td>
+                    <td>₹20,000–₹25,000</td>
+                    <td>₹28,000–₹35,000</td>
+                    <td>₹38,000–₹45,000</td>
+                  </tr>
+                  <tr>
+                    <td>Status</td>
+                    <td>
+                      <div class="cell-badges">
+                        <span class="chip chip--done">✓ Done</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="cell-badges">
+                        <span class="chip chip--active">75% complete</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="cell-badges">
+                        <span class="chip chip--locked">Locked</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="cell-badges">
+                        <span class="chip chip--locked">Locked</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Skills</td>
+                    <td>Basic riding, App usage</td>
+                    <td>Route optimization, Customer service, Problem solving</td>
+                    <td>Fleet coordination, Team handling</td>
+                    <td>Operations, Strategy basics</td>
+                  </tr>
+                  <tr>
+                    <td>Estimated time</td>
+                    <td>—</td>
+                    <td>2–4 weeks</td>
+                    <td>1–2 months</td>
+                    <td>3–6 months</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div style="height:14px"></div>
+          <p class="note animate-on-scroll">
+            Note: timelines vary by city, platform, shift type, and opportunities. No guarantees.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" aria-label="Footer">
+      <div class="container footer__grid">
+        <div>
+          <h3 class="footer__title">ABOUT</h3>
+          <a class="footer__link" href="./index.html#home">About Us</a>
+          <a class="footer__link" href="./how-it-works.html">How It Works</a>
+          <a class="footer__link" href="./index.html#home">Blog</a>
+        </div>
+        <div>
+          <h3 class="footer__title">CAREER PATHS</h3>
+          <a class="footer__link" href="./career-paths.html">Delivery</a>
+          <a class="footer__link" href="./career-paths.html">Warehouse</a>
+          <a class="footer__link" href="./career-paths.html">Support</a>
+          <a class="footer__link" href="./career-paths.html">Data &amp; Admin</a>
+        </div>
+        <div>
+          <h3 class="footer__title">SUPPORT</h3>
+          <a class="footer__link" href="./community.html#faq">FAQ</a>
+          <a class="footer__link" href="./index.html#get-started">Contact</a>
+          <a class="footer__link" href="./index.html#get-started">Privacy</a>
+          <a class="footer__link" href="./index.html#get-started">Terms</a>
+        </div>
+        <div>
+          <h3 class="footer__title">CONNECT</h3>
+          <a class="footer__link" href="./index.html#get-started">LinkedIn</a>
+          <a class="footer__link" href="./index.html#get-started">Twitter</a>
+          <a class="footer__link" href="./index.html#get-started">Instagram</a>
+        </div>
+      </div>
+      <div class="container footer__bottom">
+        © 2026 GigPath. Made with <span aria-hidden="true">❤️</span> for India's gig workers.
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
